@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="outono" transform="translate(-456 -1330)">
+    <g id="maple-leaf" transform="translate(458.264 1335)">
+      <g id="Group_70" data-name="Group 70" transform="translate(2.736 0)">
+        <path id="Path_66" data-name="Path 66" d="M71.984,41.381,66.4,38.175l5.231-10.3L60.332,30.3l-1.676-6.219L47.151,32.744l4.671-22.2-7.879,3.269L37.36,0,30.778,13.817,22.9,10.548l4.671,22.2L16.065,24.082,14.389,30.3l-11.3-2.431,5.231,10.3L2.736,41.381,21.893,54.464,17.78,60.223H56.941l-4.114-5.759Z" transform="translate(-2.736 0)" fill="#f67e00"/>
+      </g>
+      <g id="Group_71" data-name="Group 71" transform="translate(37.36 0)">
+        <path id="Path_67" data-name="Path 67" d="M290.624,41.381l-5.586-3.207,5.231-10.3-11.3,2.431L277.3,24.082,265.79,32.744l4.671-22.2-7.879,3.269L256,0V60.223h19.581l-4.114-5.759Z" transform="translate(-256 0)" fill="#ff4b00"/>
+      </g>
+      <path id="Path_68" data-name="Path 68" d="M183.439,228.332l-2.5-3.255-9.234,7.077V214.5h-4.1v17.659l-9.234-7.077-2.495,3.255,11.729,8.989v17.846h4.1V237.321Z" transform="translate(-132.207 -185.171)" fill="#913f02"/>
+      <path id="Path_69" data-name="Path 69" d="M270.45,228.332l-2.495-3.255-9.234,7.077V214.5h-2.051v40.672h2.051V237.321Z" transform="translate(-219.219 -185.171)" fill="#6f2e01"/>
+    </g>
+    <rect id="Rectangle_130" data-name="Rectangle 130" width="80" height="80" transform="translate(456 1330)" fill="none"/>
+  </g>
+</svg>

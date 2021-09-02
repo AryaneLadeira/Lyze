@@ -1,0 +1,443 @@
+/* Introdução */
+.interna_mecanicas {
+    background: url("../img/mecanicas/bg-mecanicas.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/* Sumário */
+.lista_esquerda {
+    margin-top: 60px;
+}
+
+.sumario {
+    margin-bottom: 100px;
+}
+
+.lista_esquerda {
+    margin-left: 40px;
+    float: left;
+}
+
+.lista_direita {
+    float: right;
+    margin-right: 40px;
+    margin-top: 60px;
+}
+
+.btn_sumario:hover {
+    background: #FCB040;
+    box-shadow: 1px 1px 10px #FCB040;
+    font-size: 1em;
+}
+
+/* botoes esquerda */
+.botao_escolha {
+    padding:26px 84px;
+}
+
+.botao_voz {
+    padding:26px 93px;
+}
+
+.botao_dados {
+    padding:26px 131px;
+}
+
+.botao_rep {
+    padding:26px 30px;
+}
+
+/* botoes direita */
+
+.botao_acoes {
+    padding:26px 95px;
+}
+
+.botao_rank {
+    padding:26px 109px;
+}
+
+.botao_imunidade {
+    padding:26px 110px;
+}
+
+.botao_sexo {
+    padding:26px 139px;
+}
+
+/* escolha absoluta */
+
+.escolha_absoluta {
+    background: #020F18;
+    width: 100%;
+    padding: 60px 0;
+}
+
+.escolha_absoluta h2{
+    padding-top: 60px;
+    color: #fff;
+}
+
+.escolha_absoluta h2:after{
+    background: #fff;
+}
+
+.escolhas {
+    width: 330px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.escolha_absoluta h3 {
+    font-size: 1.5em;
+    color: #49b7a6;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.escolhas p {
+    color: #fff;
+    text-align: left;
+}
+
+.escolhas_esquerda {
+    float: left;
+    margin-left: 20px;
+}
+
+.escolhas_direita {
+    float: right;
+    margin-right: 20px;
+}
+
+/* Sistema de voz */
+
+.sistema_voz h2{
+    margin-top: 60px;
+}
+
+.sistema_voz .container {
+    background: #49b7a6;
+    box-shadow: 20px 20px #020F18;
+    width: 740px;
+    height: 250px;
+}
+
+.unmute {
+    float: left;
+    width: 350px;
+    text-align: center;
+    padding: 20px;
+}
+
+.mute {
+    float: right;
+    width: 350px;
+    text-align: center;
+    padding: 20px;
+}
+
+.unmute p, .mute p{
+    color: #fff;
+    text-align: left;
+}
+
+/* dados */
+
+.sistema_dados {
+    margin-top: 100px;
+    width: 100%;
+    background: #020F18;
+    padding: 60px;
+}
+/* esquerda */
+
+.texto_esquerda {
+    float: left;
+    width: 520px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.texto_esquerda p{
+    color: #fff;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.texto_esquerda h3{
+    font-size: 1.5em;
+    color: #49b7a6;
+    text-transform: uppercase;
+}
+
+.dado_esquerda {
+    width: 300px;
+    height: 106px;
+    border: 3px solid #49b7a6;
+    text-align: center;
+    padding-top: 40px;
+    color: #fff;
+    font-size: 3em;
+    float: right;
+    margin-bottom: 60px;
+}
+
+/* direita */
+
+.dado_direita {
+
+    float: left;
+    width: 300px;
+    height: 106px;
+    border: 3px solid #49b7a6;
+    text-align: center;
+    padding-top: 40px;
+    color: #fff;
+    font-size: 3em;
+    float: left;
+    margin-bottom: 60px;
+}
+
+.texto_direita {
+    float: right;
+    width: 520px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.texto_direita p {
+    color: #fff;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.texto_direita h3 {
+    font-size: 1.5em;
+    color: #49b7a6;
+    text-transform: uppercase;
+}
+
+/* Reputação e comportamento */
+
+.reputacao_comportamento h2 {
+    margin-top: 60px;
+}
+
+.reputacao_comportamento h3 {
+    text-align: center;
+    clear: both;
+}
+
+.reputacao_comportamento div div {
+    width: 180px;
+    height: 50px;
+    padding-top: 14px;
+    background: #020F18;
+    color: #fff;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 120px;
+
+}
+
+.reputacao_comportamento p{
+    margin-top: 40px;
+}
+
+
+.linha {
+    float: left;
+    margin: 40px 50px 40px 60px;
+}
+
+.comportamento {
+    float: right;
+}
+
+.pra_que_serve {
+    padding-top: 50px;
+}
+
+/* ações e status */
+
+.acoes_status {
+    background: #020F18;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.acoes_status h2 {
+    margin-top: 60px;
+}
+
+.explicacao_status {
+    width: 580px;
+    background: #49b7a6;
+    box-shadow: 21px 21px #020F18, 23px 23px #fff, 19px 23px #fff, 23px 19px #fff;
+    margin-left: 160px;
+
+}
+
+.explicacao_status p {
+    color: #fff;
+    padding: 25px;
+}
+
+.sub_status {
+    font-size: 1.125em;
+    text-align: center;
+}
+
+.status p{
+    margin-top: 20px;
+    color: #fff;
+}
+
+.status img{
+    margin-left: 75px;
+    margin-bottom: 25px;
+}
+
+
+.sub_status_fisica {
+    color: #FC5A40;
+}
+
+.sub_status_manual {
+    color: #FCB040;
+}
+
+.sub_status_agilidade {
+    color: #49B749;
+}
+
+.sub_status_inteligencia {
+    color: #40CFFC;
+}
+
+.div_sub_status {
+    padding-top: 20px;
+    clear: both;
+}
+
+/* rank e luta */
+
+.rank_luta h2{
+    margin-top: 60px;
+}
+
+.p_verde{
+    padding: 40px;
+    background: #49b7a6;
+    color: #fff;
+}
+
+.p_preto{
+    padding: 20px 40px;
+    background: #020F18;
+    color: #fff;
+}
+
+.rank_luta .subtitulo_verde{
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+.defesa {
+    float: left;
+    width: 180px;
+    text-align: center;
+    margin-top: 40px;
+}
+.esquiva {
+    float: right;
+    width: 180px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.linha_luta {
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.esquiva p, .defesa p {
+    text-align: left;
+}
+
+.rank_luta .defesa h2, .rank_luta .esquiva h2 {
+    margin-top: 5px;
+    padding-top: 15px;
+}
+
+/* Imunidade */
+
+.imunidade {
+    width: 100%;
+    padding: 60px;
+    background: #020F18;
+}
+
+
+
+.imunidade p{
+    color: #fff;
+}
+
+.linha_imunidade:after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 3px;
+    background: #fff;
+    margin: 60px auto;
+}
+
+.imunidade .imunidade_texto h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imunidade_ganho {
+    margin-top: 40px;
+}
+
+/* sexo */
+
+.sexo .subtitulo {
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.sexo_divs {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sexo_divs p {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.sexo .gravidez {
+    margin-right: 40px;
+}
+
+.sexo .dst {
+    float: right;
+}
+
+/* footer */
+
+.pre_footer_mecanicas {
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    background: url(../img/mecanicas/footer-mecanicas.jpg);
+    text-align: center;
+    background-size: cover;
+    
+}

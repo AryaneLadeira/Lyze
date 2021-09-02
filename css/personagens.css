@@ -1,0 +1,60 @@
+/* Introdução */
+.interna_personagens {
+    background: url("../img/personagens/bg-personagens.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/* Personagens */
+
+.players {
+    float: left;
+    margin: 20px 0;
+    margin-right: 10px;
+
+}
+
+.img_players {
+    transition: filter 0.2s;
+    position: relative;
+    z-index: 1;
+}
+
+.players:hover .img_players{
+    filter: brightness(170%);
+}
+
+.npcs {
+    float: right;
+    margin: 20px 0;
+    margin-right: 10px;
+}
+
+.img_npcs {
+    transition: filter 0.2s;
+    position: relative;
+    z-index: 1;
+}
+
+.npcs:hover .img_npcs{
+    filter: brightness(170%);
+}
+
+.personagens .h2_players {
+    position: absolute;
+    z-index: 3;
+    margin-top: 460px;
+    margin-left: 175px;
+}
+
+.personagens .h2_npcs {
+    position: absolute;
+    z-index: 3;
+    margin-top: 460px;
+    margin-left: 184px;
+}
+
+/* Footer */
+
+footer {
+    clear: both;
+}

@@ -1,0 +1,366 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.875em;
+    line-height: 20px;
+    letter-spacing: .04em;
+}
+
+.btn {
+    background: #49b7a6;
+    padding: 10px 20px;
+    line-height: 20px;
+    font-size: 1.125em;
+    color: #fff;
+    transition: box-shadow 0.2s, font-size 0.2s, background 0.2s;
+}
+
+.btn:hover {
+    background: #FCB040;
+    box-shadow: 1px 1px 10px #FCB040;
+    font-size: 1.2em;
+}
+
+.subtitulo {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    line-height: 30px;
+    color: #49b7a6;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.subtitulo:after{
+    content: "";
+    display: block;
+    width: 90px;
+    height: 3px;
+    background: #49b7a6;
+    margin: 10px auto;
+}
+
+.subtitulo_preto {
+    color: #fff;
+}
+
+.subtitulo_preto:after {
+    background: #fff;
+}
+
+.subtitulo_verde {
+    font-size: 1.5em;
+    color: #49b7a6;
+    text-transform: uppercase;
+}
+
+
+/* Header */
+.header {
+    width: 100%;
+    background: #49b7a6;
+    padding: 15px 0;
+    position: fixed; /* menu fixo */
+    top: 0;
+    z-index: 10;
+}
+
+.header_menu {
+    text-align: right;
+}
+
+.header_menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.header_menu ul li a {
+    color: #fff;
+    font-size: 1.125em;
+    line-height: 20px;
+    padding: 15px 0;
+    transition: color 0.2s linear, border-bottom 0.2s linear;
+}
+
+.header_menu ul li a:hover {
+    color: #020F18;
+    border-bottom: 3px solid #020F18;
+    
+}
+
+.header_menu ul li a.menu_ativo {
+    color: #020F18;
+    border-bottom: 3px solid #020F18;
+}
+
+
+/* Introdução */
+.introducao {
+    width: 100%;
+    height: 570px;
+    background: url("../img/inicio/bg.jpg") no-repeat center;
+    background-size: cover; /* preenche mantendo as proporções da img */
+    margin-top: 88px;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.introducao h1 {
+    font-size: 3em;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.quote {
+    max-width: 340px;
+    margin: 0 auto;
+    color: #fff;
+    margin-bottom: 80px;
+}
+
+.quote p {
+    font-style: italic;
+}
+
+.quote p:before, .quote p:after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 3px;
+    background-color: #fff;
+    margin: 14px auto 10px auto;
+}
+
+/* Introdução Interna */
+
+.introducao_interna {
+    margin-top: 88px;
+    height: 200px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+.introducao_interna h1 {
+    font-size: 2.25em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.introducao_interna h1:after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 3px;
+    background: #fff;
+    margin: 10px auto;
+}
+
+/* Sinopse */
+.sinopse .subtitulo {
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.fundo_preto {
+    height: 480px;
+    background: #020F18;
+    margin-top: 40px;
+    z-index: 1;
+}
+
+.sinopse_flutuante .btn {
+    z-index: 3;
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 174px;
+    margin-right: 174px;
+}
+
+.sinopse_flutuante {
+    position: relative;
+    float: right;
+    z-index: 2;
+}
+
+.sinopse_flutuante img {
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.texto_sinopse {
+    width: 460px;
+    float: left;
+    color: #fff;
+    padding: 15px;
+    
+}
+
+.texto_sinopse p {
+    margin-bottom: 10px;
+}
+
+/* Nature Highschool */
+
+.nature {
+    width: 100%;
+    padding: 60px 0;
+    background: #020F18;
+    margin-top: 100px;
+}
+
+.nature .container h1 {
+    color: #fff;
+}
+
+.nature .container h1:after {
+    background: #fff;
+}
+.lista_nature img {
+    transition: filter 0.5s linear;
+}
+
+.lista_nature:hover img {
+    filter: brightness(170%);
+}
+.lista_nature:hover {
+    background: #1a7466;
+}
+
+.lista_nature {
+    background: #49b7a6;
+    height: 381px;
+    transition: background 0.5s linear;
+}
+.lista_nature h3 {
+    font-size: 1.125em;
+    text-transform: uppercase;
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+}
+
+.lista_nature h3:after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 3px;
+    margin: 8px auto;
+    background: white;
+}
+
+.lista_nature p{
+    padding: 10px 10px;
+    color: #fff;
+}
+
+.call {
+    text-align: center;
+    clear: both; /* os itens acima estão com float, então pro padding pegar tem que dar o clear both */
+    padding-top: 60px;
+}
+
+.call p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Personagens */
+.personagens .subtitulo {
+    margin-top: 60px;
+}
+
+.div_personagens {
+    width: 300px;
+    z-index: 2;
+    float: left; 
+}
+
+.div_personagens .btn {
+    position: absolute;
+    z-index: 3;
+    float: left;
+    margin-top: 343px;
+    margin-left: 16px;
+}
+
+.btn_npcs {
+    padding: 18px 108px;
+}
+
+.btn_players {
+    padding: 18px 100px;
+    margin-left: 1px;
+}
+
+.div_npcs {
+    margin-left: 160px;
+}
+
+.div_players {
+    margin-left: 20px;
+}
+
+.div_personagens img{
+    transition: filter 0.5s linear;
+}
+
+.div_personagens:hover img {
+    filter: brightness(140%);
+}
+
+.texto {
+    clear: both;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 80px;
+}
+
+/* footer */
+
+.pre_footer {
+    width: 100%;
+    height: 200px;
+    background: url(../img/inicio/footer-index.jpg);
+    text-align: center;
+    background-size: cover;
+}
+
+
+
+.pre_footer .quote {
+    padding-top: 30px;
+    max-width: 470px;
+}
+
+.quote cite {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.875em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background: #020F18;   
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 30px 0;
+}

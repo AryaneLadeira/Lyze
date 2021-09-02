@@ -1,0 +1,104 @@
+/* Introdução */
+.interna_personagens {
+  background: url("../img/personagens/bg-ficha.jpg") no-repeat center;
+  background-size: cover;
+}
+/* Dados */
+.dados {
+  padding: 60px 0px 60px 0px;
+}
+
+/* Status */
+
+.status {
+  background: #020f18;
+  padding: 20px;
+}
+
+.subtitulo_rank {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  line-height: 30px;
+  color: #fcfc40;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.subtitulo_rank:before {
+  content: url(../img/personagens/rank.png);
+  margin: 0 auto;
+  display: block;
+}
+
+.imunidade {
+  border: 2px solid #82cabf;
+  padding: 5px;
+  float: right;
+  z-index: 3;
+  text-align: center;
+  position: absolute;
+}
+
+.imunidade p {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Status */
+
+.fisica {
+  color: #fc5a40;
+  margin-left: 20px;
+}
+
+.fisica p:after {
+  content: url(../img/icones/mecanicas/força.svg);
+  margin: 0 auto;
+  display: block;
+}
+
+.manual {
+  color: #fcb040;
+}
+
+.manual p:after {
+  content: url(../img/icones/mecanicas/manual.svg);
+  margin: 0 auto;
+  display: block;
+}
+
+.agilidade {
+  color: #49b749;
+}
+
+.agilidade p:after {
+  content: url(../img/icones/mecanicas/rapidez.svg);
+  margin: 0 auto;
+  display: block;
+}
+
+.inteligencia {
+  color: #40cffc;
+}
+
+.inteligencia p:after {
+  content: url(../img/icones/mecanicas/inteligencia.svg);
+  margin: 0 auto;
+  display: block;
+}
+
+.habilidades ul li {
+  display: block;
+  float: left;
+  margin-right: 35px;
+  text-align: center;
+}
+
+.habilidades ul {
+  margin-top: 60px;
+}
+
+.img_personagem {
+  border: 1px solid #020f18;
+}

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Lyze</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mecanicas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/icones/icone_page.svg">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4">
+                <img src="img/icones/lyze-icon.svg" alt="Lyze">
+            </a>
+            <nav class="header_menu grid-12"> <!-- menu -->
+                <ul>
+                    <li><a href="mecanicas.html" class="menu_ativo">Mecânicas</a></li>
+                    <li><a href="aikatsu.html">Aikatsu</a></li>
+                    <li><a href="nature.html">Nature Highschool</a></li>
+                    <li><a href="personagens.html">Personagens</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="introducao_interna interna_mecanicas">
+        <div class="container">
+            <h1>Mecânicas</h1>
+            <p>Tudo o que você precisa saber sobre as mecânicas do roleplay</p>
+        </div>
+    </section>
+
+    <section class="container" id="sumario_lista">
+        <ul class="lista_esquerda">
+            <li class="sumario">
+                <a href="#escolha_absoluta" class="btn btn_sumario botao_escolha" onclick="toggle()">Escolha absoluta</a>
+            </li>
+
+            <li class="sumario">
+                <a href="#sistema_voz" class="btn btn_sumario botao_voz">Sistema de voz</a>
+            </li>
+
+            <li class="sumario">
+                <a href="#sistema_dados" class="btn btn_sumario botao_dados">Dados</a>
+            </li>
+
+            <li class="sumario">
+                <a href="#reputacao_comportamento" class="btn btn_sumario botao_rep">Reputação/ Comportamento</a>
+            </li>
+        </ul>
+
+        <ul class="lista_direita">
+            <li class="sumario">
+                <a href="#acoes_status" class="btn btn_sumario botao_acoes">Ações e status</a>
+            </li>
+
+            <li class="sumario">
+                <a href="#rank_luta" class="btn btn_sumario botao_rank">Rank e luta</a>
+            </li>
+
+            <li class="sumario">
+                <a href="#imunidade" class="btn btn_sumario botao_imunidade">Imunidade</a>
+            </li>
+
+            <li class="sumario">
+                <a href="#sexo" class="btn btn_sumario botao_sexo">Sexo</a>
+            </li>
+    </section>
+
+    <section class="escolha_absoluta" id="escolha_absoluta">
+        <div class="container">
+            <h2 class="subtitulo">Escolha Absoluta</h2>
+
+            <div class="escolhas_esquerda">
+                <div class="escolhas">
+                    <img src="img/icones/mecanicas/sobre-escolhas.svg" alt="Escolhas Absolutas">
+                    <h3>Sobre as escolhas</h3>
+                    <p>Geralmente, quando a Escolha Absoluta é aplicada, todos devem jogar no dado de 10, aquele que tirar o menor número será escolhido. Serão enviadas de duas a mais escolhas para esse jogador, que, em seguida deve realizar uma delas.</p>
+                </div>
+
+                <div class="escolhas">
+                    <img src="img/icones/mecanicas/escolha-incompleta.svg" alt="Escolhas Absolutas">
+                    <h3>Escolha incompleta</h3>
+                    <p>Quando um jogador não consegue completar a escolha por algum motivo, seja ele tempo ou complicação com outro personagem, a mestra irá escolher uma opção aleatoriamente e forçar o jogador, controlando o seu personagem, a realizar a ação da forma que ela quiser.</p>
+                </div>
+
+            </div>
+
+            <div class="escolhas_direita">
+                <div class="escolhas">
+                    <img src="img/icones/mecanicas/em-grupo.svg" alt="Escolhas Absolutas">
+                    <h3>Escolhas em grupo</h3>
+                    <p>Haverão momentos em que dois jogadores tirarão o menor número ou a mestra decidir alguma outra forma de escolha e então, formará uma escolha em grupo. Nesse modo, os jogadores escolhidos devem entrar em consenso e escolher a mesma alternativa.</p>
+                </div>
+
+                <div class="escolhas">
+                    <img src="img/icones/mecanicas/negacao-escolha.svg" alt="Escolhas Absolutas">
+                    <h3>Negação de escolha</h3>
+                    <p>Isso ocorre geralmente em escolhas em grupo com mais de dois jogadores. Quando um jogador se negar a realizar a escolha que foi selecionada pelos jogadores, a mestra irá controlar o personagem do jogador, o forçando a completar a escolha.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sistema_voz" id="sistema_voz">
+        <h2 class="subtitulo">Sistema de Voz</h2>
+        <div class="container">
+            <div class="unmute">
+                <img src="./img/icones/mecanicas/unmute.svg" alt="Desmutado">
+                <p>Será mestrado a parte de cada um por vez e em cada lugar, jogadores pertos uns dos outros ficarão com áudio e microfone abertos, ou seja, ouvirão tudo que ocorre naquele local.</p>
+            </div>
+            <div class="mute">
+                <img src="./img/icones/mecanicas/mute.svg" alt="Mutado">
+                <p>Jogadores que estão em locais diferentes do que está sendo mestrado ficarão com áudio e microfone fechados, sendo a única forma de comunicação pelo NatChat ou por ligação. Isso permitirá uma interação maior entre os Players.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sistema_dados" id="sistema_dados">
+        <div class="container">
+            <h2 class="subtitulo subtitulo_preto">Dados</h2>
+
+            <div class="grid-16">
+                <div class="texto_esquerda">
+                    <h3>Ação</h3>
+                    <p>Para executar uma ação você precisa do seu status na habilidade requerida. Use “!acao” colocando o valor do status necessário na frente. Para acertar a ação, o dado deverá cair abaixo ou igual ao seu status.</p>
+                </div>
+                <div class="dado_esquerda">
+                    <p>!acao x</p>
+                </div>
+            </div>
+
+            <div class="grid-16">
+                <div class="dado_direita">
+                    <p>!rank x x x x</p>
+                </div>
+                <div class="texto_direita">
+                    <h3>Descubra seu rank</h3>
+                    <p>Para verificar em qual rank você ou algum personagem está, use “!rank” colocando o valor dos status na frente em qualquer ordem.</p>
+                </div>
+            </div>
+
+            <div class="grid-16">
+                <div class="texto_esquerda">
+                    <h3>Informações do Rank</h3>
+                    <p>Será mestrado a parte de cada um por vez e em cada lugar, jogadores pertos um dos outros ficarão com áudio e microfone abertos, ou seja, ouvirão tudo que ocorre naquele local.</p>
+                </div>
+                <div class="dado_esquerda">
+                    <p>!rankinfo x</p>
+                </div>
+            </div>
+
+            <div class="grid-16">
+                <div class="dado_direita">
+                    <p>!roll x</p>
+                </div>
+                <div class="texto_direita">
+                    <h3>Outra ações</h3>
+                    <p>Em algumas situações, como: responder à prova, adoecer, entre outros; será necessário o uso de dados específicos, então será usado o "!roll" com o número do dado na frente.</p>
+                </div>
+            </div>
+
+            <div class="grid-16">
+                <div class="texto_esquerda">
+                    <h3>Preservativo barato</h3>
+                    <p>Quando houver a possibilidade de um preservativo romper, o player deve rolar o dado "!perigo", sem nada escrito na frente.</p>
+                </div>
+                <div class="dado_esquerda">
+                    <p>!perigo</p>
+                </div>
+            </div>
+
+            <div class="grid-16">
+                <div class="dado_direita">
+                    <p>!sex s/n</p>
+                </div>
+                <div class="texto_direita">
+                    <h3>Gravidez</h3>
+                    <p>Sempre que um jogador estiver no ato, a mestra dirá para ele jogar o "!sex" seguido por "s" ou "n", sendo o "s" para quando o jogador usou um método e "n" para quando não usou.</p>
+                </div>
+            </div>
+
+            <div class="grid-16">
+                <div class="texto_esquerda">
+                    <h3>DST</h3>
+                    <p>Quando um jogador não utilizar métodos contraceptivos ou ter alguma relação com um personagem que teve alguma dst, o jogador deve usar o "!dst".</p>
+                </div>
+                <div class="dado_esquerda">
+                    <p>!dst</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container reputacao_comportamento" id="reputacao_comportamento">
+        <h2 class="subtitulo">Reputação e comportamento</h2>
+        <h3 class="subtitulo_verde">O que é?</h3>
+
+        <div class="grid-7 reputação">
+            <div>Reputação</div>
+            <p>Quando um jogador ajuda algum NPC, seja resolvendo um problema ou de alguma outra forma, esse jogador recebe reputação. Entretanto, quando um jogador faz uma ação que influencia algum personagem negativamente, a sua reputação cai.</p>
+        </div>
+
+        <div class="linha">
+            <img src="./img/mecanicas/linha_menor.svg" alt="separador">
+        </div>
+        
+        <div class="grid-7 comportamento">
+            <div>Comportamento</div>
+            <p>Quando um jogador segue as regras da escola, ajuda os funcionários de alguma forma, obedece as ordens superiores e se mantêm na linha, esse jogador recebe comportamento. Porém, quando um jogador é um mal aluno e sai da linha na escola, o seu comportamento cai.</p>
+        </div>
+
+        <h3 class="subtitulo_verde">Pra que serve?</h3>
+
+        
+        <div class="grid-7 reputacao">
+            <p class="pra_que_serve">Quanto melhor é a reputação que um player tem, mais fácil se torna conversar com os NPCs e ganhar a amizade/confiança deles, mas é claro que não é assim com todos eles, afinal, eles pensam de forma diferente uns dos outros. Quando a reputação de um jogador está muito ruim, os NPCs começam a evitar ele ou até mesmo o ignoram, alguns deles podem até brigar com você sem nenhum motivo aparente.</p>
+        </div>
+
+        <div class="linha">
+            <img src="./img/mecanicas/linha_menor.svg" alt="separador">
+        </div>
+        
+        <div class="grid-7 comportamento">
+            <p class="pra_que_serve">Quando um personagem tem um comportamento muito bom, se torna mais fácil conversar com os funcionários, ganhando a confiança deles, trazendo até alguns benefícios. Você se torna um aluno muito bom e será reconhecido por toda a escola. Os funcionários irão te recomendar para várias coisas que te beneficiarão, te ajudando caso você precise de algo seja estudos ou até te dando conselhos sobre a vida pessoal.</p>
+        </div>
+    </section>
+
+    <section class="acoes_status" id="acoes_status">
+        <div class="container">
+            <h2 class="subtitulo subtitulo_preto">Ações e status</h2>
+            <div class="explicacao_status">
+                <p>Os players tem status que demonstram sua habilidade e conhecimento em determinadas áreas. Cada status vai de 0 até 100, sendo 100 considerado como máximo. Cada status equivale à uma determinada pontuação e isso influencia na sua taxa de vitória. Quanto maior o status, mais forte é o personagem naquela área.</p>
+            </div>
+
+            <h2 class="subtitulo">Esses status são:</h2>
+
+            <div class="grid-4 status">
+                <img src="./img/icones/mecanicas/força.svg" alt="Habilidade Física">
+                <h3 class="sub_status sub_status_fisica">Habilidade Física</h3>
+                <p>Essa habilidade engloba ações que necessitem de força ou condicionamento físico, como levantar objetos pesados, socar alguém, arrombar uma porta, entre outros.</p>
+            </div>
+
+            <div class="grid-4 status">
+                <img src="./img/icones/mecanicas/manual.svg" alt="Habilidade Manual">
+                <h3 class="sub_status sub_status_manual">Habilidade Manual</h3>
+                <p>Serve para ações que precisem de muito cuidado e concentração, como cozinhar, montar coisas, reconstruir, cuidar de ferimentos, manter a calma em situações de alto estresse, facilidade em administrar objetos como armas, entre outros.</p>
+            </div>
+
+            <div class="grid-4 status">
+                <img src="./img/icones/mecanicas/rapidez.svg" alt="Agilidade">
+                <h3 class="sub_status sub_status_agilidade">Agilidade</h3>
+                <p>A agilidade engloba ações que necessitam de rapidez e reflexo, como correr, escalar lugares, desviar de coisas, pular de lugares, se esconder, entre outros.</p>
+            </div>
+
+            <div class="grid-4 status">
+                <img src="./img/icones/mecanicas/inteligencia.svg" alt="Inteligência">
+                <h3 class="sub_status sub_status_inteligencia">Inteligência</h3>
+                <p>A inteligência utiliza a percepção, conhecimento e persuasão, sendo útil para perceber coisas, influenciar alguém, utilizar o conhecimento ao seu favor como quando alguém se machuca, investigar coisas e acontecimentos, entre outros.</p>
+            </div>
+
+            <div class="div_sub_status">
+                <h2 class="subtitulo">Como aumentar os status?</h2>
+            </div>
+
+            <div class="grid-4 status">
+                <img src="./img/icones/mecanicas/força+.svg" alt="Habilidade Física">
+                <p>Pode ser aumentada fazendo atividades físicas que envolvam fortalecimento dos músculos, como: malhar na academia, fazer flexões, nadar, entre outros.</p>
+            </div>
+
+            <div class="grid-4 status">
+                <img src="./img/icones/mecanicas/manual+.svg" alt="Habilidade Manual">
+                <p>Precisa de prática para ser melhorada! Fazer atividades que necessitem de manuseio de objetos e concentração, como: cozinhar, tricotar, consertar coisas, entre outros.</p>
+            </div>
+
+            <div class="grid-4 status">
+                <img src="./img/icones/mecanicas/rapidez+.svg" alt="Agilidade">
+                <p>Necessita de atividades físicas que melhorem sua rapidez e reflexo, como: correr, escalar paredes, pular corda, jogar jogos que demandam reflexo, entre outros.</p>
+            </div>
+
+            <div class="grid-4 status">
+                <img src="./img/icones/mecanicas/inteligencia+.svg" alt="Inteligência">
+                <p>Atividades complexas que necessitam de lógica e conhecimento aumentam a sua inteligência, como: ler livros, estudar, observar coisas, conversar com pessoas sobre diversos conhecimentos, entre outros.</p>
+            </div>
+
+            <div class="div_sub_status">
+                <h2 class="subtitulo">Status escolar</h3>
+            </div>
+            <div class="explicacao_status">
+                <p>Todos os personagens precisam fazer as provas para no final do ano conseguirem passar para o próximo ano letivo. No Lyze de cada um mostra a quantidade de status que ele tem em uma matéria (x/20) e a cada vez que o aluno estuda aquela matéria, ele ganha um ponto de status. A cada bimestre os status de todas as matérias resetam. A média de pontos necessária para ser aprovado na prova é de 25 pontos, enquanto o máximo de pontos possível é 40.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container rank_luta" id="rank_luta">
+        <h2 class="subtitulo">Rank e luta</h2>
+
+        <div class="grid-7">
+            <div>
+                <h2 class="subtitulo subtitulo_total">Sobre o Rank</h2>
+                <p class="p_verde">O rank é definido pela média de todas as suas habilidades.</p>
+                <p class="p_preto">Você pode conferir o seu rank usando o comando !rank seguido dos valores das suas habilidades em qualquer ordem! </p>
+            </div>
+
+            <div>
+                <h2 class="subtitulo_verde">Pra que serve</h2>
+                <p class="p_verde">A sua vida e ataque dependem do seu rank, ou seja, quanto maior o rank, mais forte é um personagem.</p>
+                <p class="p_preto">Para descobrir a sua vida e ataque use o comando  !rankinfo seguido do seu rank.</p>
+            </div>
+            <div>
+                <h2 class="subtitulo_verde">E os NPCS</h2>
+                <p>Os NPCs também tem rank! O rank de cada um fica armazenado no seu próprio Lyze. Para descobrir o rank de alguém, basta perguntar ou talvez tentar descobrir de outra forma. Quando você descobre o rank de algum personagem ou algo sobre eles, esses dados ficam armazenados no seu Lyze.</p>
+            </div>
+        </div>
+
+        <div class="linha">
+            <img src="./img/mecanicas/linha-maior.svg" alt="Separador">
+        </div>
+
+        <div class="grid-7">
+            <h2 class="subtitulo">Sobre a Luta</h2>
+            <p>As lutas devem ser detalhadas tanto pela mestra quanto pelos jogadores, afinal, elas trarão consequências.</p>
+            
+            <h2 class="subtitulo_verde">Turnos</h2>
+            <p>Cada jogador terá seu turno, aquele que iniciar a briga será o primeiro. Dependendo da sua ação, você irá usar uma habilidade, afinal, força não é tudo! Para acertar a habilidade, você deve tirar um número abaixo do status da sua habilidade. </p>
+            
+            <h2 class="subtitulo_verde">Defesa e esquiva</h2>
+            <p>Quando um jogador for sofrer um golpe ele pode escolher entre duas opções: esquivar ou defender, cada uma delas tem suas vantagens e desvantagens, mas a situação também conta!</p>
+
+            <div class="defesa">
+                <img src="./img/icones/mecanicas/defesa.svg" alt="Defesa ">
+                <h2 class="subtitulo_verde subtitulo_menor">Defesa</h2>
+                <p>A defesa pode ser realizada em qualquer ocasião, porém, traz consequências. Dependendo de como o personagem defender, ele poderá se machucar. Um soco forte em uma defesa desajeitada pode acabar quebrando alguns ossos!</p>
+            </div>
+
+            
+            <img src="./img/mecanicas/linha-luta.svg" alt="Separador" class="linha_luta">
+           
+
+            <div class="esquiva">
+                <img src="./img/icones/mecanicas/esquiva.svg" alt="Esquiva">
+                <h2 class="subtitulo_verde subtitulo_menor">Esquiva</h2>
+                <p>A esquiva só poderá ser realizada com sucesso caso o personagem tiver alguma mobilidade, ou seja, se a vítima estiver deitada no chão com o oponente em cima a esquiva não será realizada.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="imunidade" id="imunidade">
+        <div class="container">
+            <div>
+                <h2 class="subtitulo subtitulo_preto">Imunidade</h2>
+                <p>A imunidade faz parte dos status, porém não conta na parte de habilidades. Ela serve para “informar” como está a saúde do jogador. Quanto menor estiver a imunidade, mais fácil será o personagem adoecer. Personagens doentes podem desenvolver complicações, o que dificulta a jogabilidade do player.</p>
+                <p class="linha_imunidade">Não se esqueça que o clima também afeta a imunidade dos personagens!</p>
+            </div>
+
+            <div class="imunidade_texto grid-9">
+                <h2 class="subtitulo_verde">Perda</h2>
+                <p>Toda vez que um personagem fizer uma ação não-saudável ou que comprometa a sua saúde, a imunidade abaixará.</p>
+            </div>
+
+            <div class="grid-7">
+                <img src="./img/icones/mecanicas/imunidade.svg" alt="Imunidade">
+                <img src="./img/icones/mecanicas/seta-baixo.svg" alt="Seta para baixo">
+            </div>
+
+            <div class="grid-7">
+                <img src="./img/icones/mecanicas/imunidade.svg" alt="Imunidade">
+                <img src="./img/icones/mecanicas/seta-cima.svg" alt="Seta para baixo">
+            </div>
+
+            <div class="imunidade_texto grid-9 imunidade_ganho">
+                <h2 class="subtitulo_verde">Ganho</h2>
+                <p>Toda vez que um personagem fizer uma ação considerada saudável ou que melhore a sua qualidade de vida, a imunidade irá aumentar.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container sexo" id="sexo">
+        <h2 class="subtitulo">Sexo</h2>
+        <p>O sexo é muito bom e quase todo mundo gosta, mas como nada é fácil nessa vida, ele vem com alguns presentinhos.</p>
+
+        <div class="grid-7 sexo_divs gravidez">
+            <img src="./img/icones/mecanicas/gravidez.svg" alt="">
+            <h3 class="subtitulo_verde">Gravidez</h3>
+            <p>O primeiro presentinho (realmente é um presente para a maioria das pessoas) é a gravidez! Um bebezinho para os jogadores criarem. Sexo desprotegido têm uma alta chance de engravidar uma garota. Não se esqueçam de que também existe a chance do preservativo rasgar ou coisas assim, afinal, nenhum método contraceptivo é 100% seguro!</p>
+        </div>
+
+        <div class="grid-7 sexo_divs dst">
+            <img src="./img/icones/mecanicas/dst.svg" alt="">
+            <h3 class="subtitulo_verde">Dst</h3>
+            <p>O outro presente são as doenças sexualmente transmissíveis (isso também incluí ISTs), acredite, elas podem causar um alvoroço na sua vida. Use preservativo para se proteger! Não se esqueça de que elas também podem ser transmitidas oralmente, então, tenham cuidado!</p>
+        </div>
+    </section>
+
+    <div class="pre_footer pre_footer_mecanicas">
+        <blockquote class="quote">
+            <p>"O que as escolhas são pra mim? Bem... Se elas não existissem, a minha vida não seria tão divertida!"</p>
+
+            <cite>anônimo</cite>
+        </blockquote>
+    </div>
+    <footer>
+        <div class="container">
+            <p>© Nature Roleplay 2020 - Alguns direitos reservados - Criado por @aryane.motta</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,37 @@
+/* Introdução */
+.interna_personagens {
+    background: url("../img/personagens/bg-personagens.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/* Botões */
+
+.botoes {
+    margin-top: 20px;
+}
+
+.subtitulo_botoes {
+    padding: 10px 40px;
+    width: 280px;
+    background: #49b7a6;
+    float: left;
+}
+
+.botoes .subtitulo_botoes .h2_botoes{
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.botoes .subtitulo_botoes .h2_botoes:after{
+    margin: 10px 0;
+}
+
+.botoes .a_players {
+    float: right;
+    padding: 15px 30px;
+    background: #000;
+}
+
+.botoes .a_players:hover {
+    background: #FCB040;
+}

@@ -1,0 +1,192 @@
+/* Introdução */
+.interna_aikatsu {
+    background: url("../img/aikatsu/bg-mundo.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/* Mapa */
+
+.mapa {
+    background: #020F18;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+.mapa_imagem {
+    text-align: center;
+}
+
+.mapa p {
+    color: #fff;
+}
+
+/* estaçoes do ano */
+
+.estacoes_ano {
+    text-align: center;
+}
+
+.estacoes_ano h2{
+    margin-top: 60px;
+
+}
+
+.estacoes_ano p {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.estacao {
+    height: 300px;
+    border: 2px solid #020F18;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.estacao_direita {
+    float: right;
+    margin-right: 70px;
+}
+
+.estacao_esquerda {
+    margin-left: 70px;
+}
+
+.estacoes_ano .sub_primavera {
+    color: #14AA6B;
+}
+
+.estacoes_ano .sub_verao {
+    color: #E8AA28;
+}
+
+.estacoes_ano .sub_outono {
+    color: #FF4B00;
+}
+
+.estacoes_ano .sub_inverno {
+    color: #4793FF;
+}
+
+/* Calendário */
+
+.sessao_calendario {
+    width: 100%;
+    padding: 60px 0;
+    background: #020F18;
+}
+
+.calendario {
+    width: 600px;
+    overflow: hidden;
+    display: block;
+    margin-top: 40px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px #000508;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 10px 10px 10px;
+}
+
+.calendario .mes_calendario {
+    font-size: 1.2em;
+    display: block;
+    margin: 18px 0 0 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.calendario span {
+    text-align: center;
+    width: 79px;
+    height: 42px;
+    display: inline-block;
+    overflow: hidden;
+    line-height: 40px;
+}
+
+.circulo {
+    border: 1px solid #fff;
+}
+
+.sessao_calendario .verao {
+    background: url("../img/aikatsu/verao.png") center;
+    background-size: cover;
+}
+
+.sessao_calendario .outono {
+    background: url("../img/aikatsu/outono.jpg") center;
+    background-size: cover;
+}
+
+.sessao_calendario .inverno {
+    background: url("../img/aikatsu/inverno.jpg") center;
+    background-size: cover;
+}
+
+.sessao_calendario .primavera {
+    background: url("../img/aikatsu/primavera.jpg") center;
+    background-size: cover;
+}
+
+.sessao_calendario .calendario .eventos {
+    background: rgba(255, 255, 255, 0.767);
+    margin: 10px 0;
+    padding: 0 10px 10px 10px;
+
+}
+
+.eventos p{
+    color: #020F18;
+    height: 30px;
+    overflow: hidden;
+    font-size: 1em;
+    padding: 10px;
+    text-transform: none;
+    
+}
+
+.eventos .h3_eventos {
+    color: #020F18;
+    font-size: 1.2em;
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    padding: 20px;
+    
+}
+
+.borda_verao {
+    border-left: 20px #E8AA28 solid;
+}
+
+.borda_outono {
+    border-left: 20px #FF4B00 solid;
+}
+
+.borda_inverno {
+    border-left: 20px #4793FF solid;
+}
+
+.borda_primavera {
+    border-left: 20px #14AA6B solid;
+}
+
+
+/* profecia */
+
+.profecia {
+    margin-bottom: 40px;
+}
+
+.profecia h2 {
+    margin-top: 60px;
+}
+
+/* pre footer */
+
+.pre_footer_aikatsu {
+    background: url("../img/aikatsu/footer-mundo.jpg") center;
+}
