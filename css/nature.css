@@ -12,7 +12,7 @@
 
 .regra_maior {
     border: solid #49b7a6 2px;
-    height: 332px;
+    height: 380px;
     margin-bottom: 40px;
 }
 
@@ -35,10 +35,10 @@
 
 .regra_menor {
     border: solid #49b7a6 2px;
-    height: 332px;
+    height: 380px;
     float: left;
-    width: 180px;
-    margin: 0 20px;
+    /* width: 180px; */
+    /* margin: 0 20px; */
     margin-bottom: 40px;
 }
 
@@ -122,6 +122,11 @@
 
 .criacao_clube p {
     color: #fff;
+    margin-bottom: 20px;
+}
+
+.criacao_clube p:nth-of-type(2){
+    margin-bottom: 60px;
 }
 
 .regras_clube {
