@@ -279,10 +279,13 @@ p {
     margin-top: 60px;
 }
 
+.personagens ul li {
+    margin: auto;
+}
+
 .div_personagens {
-    width: 300px;
     z-index: 2;
-    float: left; 
+    text-align: center;
 }
 
 .div_personagens .btn {
@@ -302,13 +305,13 @@ p {
     margin-left: 1px;
 }
 
-.div_npcs {
-    margin-left: 160px;
+ .div_npcs {
+    margin-left: 120px;
 }
 
 .div_players {
-    margin-left: 20px;
-}
+    margin-left: -90px;
+} 
 
 .div_personagens img{
     transition: filter 0.5s linear;

@@ -36,10 +36,10 @@
         </div>
     </section>
 
-    <section class="container" id="sumario_lista">
-        <ul class="lista_esquerda">
+    <section class="container lista_sumario" id="sumario_lista">
+        <ul class="lista_esquerda grid-7">
             <li class="sumario">
-                <a href="#escolha_absoluta" class="btn btn_sumario botao_escolha" onclick="toggle()">Escolha absoluta</a>
+                <a href="#escolha_absoluta" class="btn btn_sumario botao_escolha">Escolha absoluta</a>
             </li>
 
             <li class="sumario">
@@ -55,7 +55,7 @@
             </li>
         </ul>
 
-        <ul class="lista_direita">
+        <ul class="lista_direita grid-7">
             <li class="sumario">
                 <a href="#acoes_status" class="btn btn_sumario botao_acoes">Ações e status</a>
             </li>
@@ -77,7 +77,7 @@
         <div class="container">
             <h2 class="subtitulo">Escolha Absoluta</h2>
 
-            <div class="escolhas_esquerda">
+            <div class="escolhas_esquerda grid-7">
                 <div class="escolhas">
                     <img src="img/icones/mecanicas/sobre-escolhas.svg" alt="Escolhas Absolutas">
                     <h3>Sobre as escolhas</h3>
@@ -92,7 +92,7 @@
 
             </div>
 
-            <div class="escolhas_direita">
+            <div class="escolhas_direita grid-7">
                 <div class="escolhas">
                     <img src="img/icones/mecanicas/em-grupo.svg" alt="Escolhas Absolutas">
                     <h3>Escolhas em grupo</h3>
@@ -108,14 +108,14 @@
         </div>
     </section>
 
-    <section class="sistema_voz" id="sistema_voz">
+    <section class="sistema_voz container" id="sistema_voz">
         <h2 class="subtitulo">Sistema de Voz</h2>
-        <div class="container">
-            <div class="unmute">
+        <div class="div_sistema_voz grid-13">
+            <div class="unmute grid-6">
                 <img src="./img/icones/mecanicas/unmute.svg" alt="Desmutado">
                 <p>Será mestrado a parte de cada um por vez e em cada lugar, jogadores pertos uns dos outros ficarão com áudio e microfone abertos, ou seja, ouvirão tudo que ocorre naquele local.</p>
             </div>
-            <div class="mute">
+            <div class="mute grid-6">
                 <img src="./img/icones/mecanicas/mute.svg" alt="Mutado">
                 <p>Jogadores que estão em locais diferentes do que está sendo mestrado ficarão com áudio e microfone fechados, sendo a única forma de comunicação pelo NatChat ou por ligação. Isso permitirá uma interação maior entre os Players.</p>
             </div>
@@ -126,72 +126,80 @@
         <div class="container">
             <h2 class="subtitulo subtitulo_preto">Dados</h2>
 
-            <div class="grid-16">
-                <div class="texto_esquerda">
+            <div>
+                <div class="texto_esquerda grid-9">
                     <h3>Ação</h3>
                     <p>Para executar uma ação você precisa do seu status na habilidade requerida. Use “!acao” colocando o valor do status necessário na frente. Para acertar a ação, o dado deverá cair abaixo ou igual ao seu status.</p>
                 </div>
-                <div class="dado_esquerda">
+                <div class="dado_esquerda grid-6">
                     <p>!acao x</p>
                 </div>
             </div>
 
-            <div class="grid-16">
-                <div class="dado_direita">
+            <div>
+                <div class="dado_direita grid-6">
                     <p>!rank x x x x</p>
                 </div>
-                <div class="texto_direita">
+                <div class="texto_direita grid-9">
                     <h3>Descubra seu rank</h3>
                     <p>Para verificar em qual rank você ou algum personagem está, use “!rank” colocando o valor dos status na frente em qualquer ordem.</p>
                 </div>
             </div>
 
-            <div class="grid-16">
-                <div class="texto_esquerda">
+            <div>
+                <!-- <div class="texto_esquerda grid-9">
                     <h3>Informações do Rank</h3>
                     <p>Será mestrado a parte de cada um por vez e em cada lugar, jogadores pertos um dos outros ficarão com áudio e microfone abertos, ou seja, ouvirão tudo que ocorre naquele local.</p>
                 </div>
-                <div class="dado_esquerda">
+                <div class="dado_esquerda grid-6">
                     <p>!rankinfo x</p>
+                </div> -->
+
+                <div class="texto_esquerda grid-9">
+                    <h3>Informações do Rank</h3>
+                    <p>Será mestrado a parte de cada um por vez e em cada lugar, jogadores pertos um dos outros ficarão com áudio e microfone abertos, ou seja, ouvirão tudo que ocorre naquele local.</p>
+                </div>
+                <div class="dado_esquerda grid-6">
+                    <p>!ranki</p>
                 </div>
             </div>
 
-            <div class="grid-16">
-                <div class="dado_direita">
+            <div>
+                <div class="dado_direita grid-6">
                     <p>!roll x</p>
                 </div>
-                <div class="texto_direita">
+                <div class="texto_direita grid-9">
                     <h3>Outra ações</h3>
                     <p>Em algumas situações, como: responder à prova, adoecer, entre outros; será necessário o uso de dados específicos, então será usado o "!roll" com o número do dado na frente.</p>
                 </div>
             </div>
 
-            <div class="grid-16">
-                <div class="texto_esquerda">
+            <div>
+                <div class="texto_esquerda grid-9">
                     <h3>Preservativo barato</h3>
                     <p>Quando houver a possibilidade de um preservativo romper, o player deve rolar o dado "!perigo", sem nada escrito na frente.</p>
                 </div>
-                <div class="dado_esquerda">
+                <div class="dado_esquerda grid-6">
                     <p>!perigo</p>
                 </div>
             </div>
 
-            <div class="grid-16">
-                <div class="dado_direita">
+            <div>
+                <div class="dado_direita grid-6">
                     <p>!sex s/n</p>
                 </div>
-                <div class="texto_direita">
+                <div class="texto_direita grid-9">
                     <h3>Gravidez</h3>
                     <p>Sempre que um jogador estiver no ato, a mestra dirá para ele jogar o "!sex" seguido por "s" ou "n", sendo o "s" para quando o jogador usou um método e "n" para quando não usou.</p>
                 </div>
             </div>
 
-            <div class="grid-16">
-                <div class="texto_esquerda">
+            <div>
+                <div class="texto_esquerda grid-9">
                     <h3>DST</h3>
                     <p>Quando um jogador não utilizar métodos contraceptivos ou ter alguma relação com um personagem que teve alguma dst, o jogador deve usar o "!dst".</p>
                 </div>
-                <div class="dado_esquerda">
+                <div class="dado_esquerda grid-6">
                     <p>!dst</p>
                 </div>
             </div>
@@ -354,7 +362,7 @@
 
     <section class="imunidade" id="imunidade">
         <div class="container">
-            <div>
+            <div class="grid-16">
                 <h2 class="subtitulo subtitulo_preto">Imunidade</h2>
                 <p>A imunidade faz parte dos status, porém não conta na parte de habilidades. Ela serve para “informar” como está a saúde do jogador. Quanto menor estiver a imunidade, mais fácil será o personagem adoecer. Personagens doentes podem desenvolver complicações, o que dificulta a jogabilidade do player.</p>
                 <p class="linha_imunidade">Não se esqueça que o clima também afeta a imunidade dos personagens!</p>
@@ -383,8 +391,9 @@
     </section>
 
     <section class="container sexo" id="sexo">
+
         <h2 class="subtitulo">Sexo</h2>
-        <p>O sexo é muito bom e quase todo mundo gosta, mas como nada é fácil nessa vida, ele vem com alguns presentinhos.</p>
+        <p class="grid-16 explicacao">O sexo é muito bom e quase todo mundo gosta, mas como nada é fácil nessa vida, ele vem com alguns presentinhos.</p>
 
         <div class="grid-7 sexo_divs gravidez">
             <img src="./img/icones/mecanicas/gravidez.svg" alt="">
@@ -408,7 +417,7 @@
     </div>
     <footer>
         <div class="container">
-            <p>© Nature Roleplay 2020 - Alguns direitos reservados - Criado por @aryane.motta</p>
+            <p class="grid-16">© Nature Roleplay 2020 - Alguns direitos reservados - Criado por @aryane.motta</p>
         </div>
     </footer>
     
