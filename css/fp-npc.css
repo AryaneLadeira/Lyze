@@ -13,6 +13,7 @@
 .status {
   background: #020f18;
   padding: 20px;
+  height: 418px;
 }
 
 .subtitulo_rank {
@@ -22,6 +23,7 @@
   color: #fcfc40;
   margin: 0 auto;
   text-align: center;
+  margin-top:60px;
 }
 
 .subtitulo_rank:before {
@@ -99,6 +101,49 @@
   margin-top: 60px;
 }
 
-.img_personagem {
-  border: 1px solid #020f18;
+
+.grid-6 {
+  float:right;
+}
+
+.info {
+  clear: both;
+  padding-top: 60px;
+  margin-top: 120px;
+  color:white;
+  font-size: 14px;
+}
+
+.lista-esquerda {
+  padding:20px;
+  background-color:#49b7a6;
+  width:120px;
+  height:429px;
+
+}
+
+.lista-direita {
+  background-color:black;
+  padding:20px;
+  margin-left:-20px;
+  border-bottom: solid 10px #49b7a6;
+  width:240px;
+}
+
+.lista-direita li,.lista-esquerda li{
+  border-bottom: solid 3px #49b7a6;
+  text-align: center;
+
+}
+
+.personalidade {
+  margin-top: 30px;
+}
+
+.habilidades {
+  margin-top: 60px;
+}
+
+.lista-direita p, .lista-esquerda p {
+  line-height: 30px;
 }
