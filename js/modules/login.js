@@ -2,7 +2,6 @@ import initModal from './modal.js';
 import loadUserType from './loadUserType.js';
 
 export default function verifyIfAlreadyLogged(){
-    loadUserType();
     if(!localStorage.getItem("rpLogin")){
         initModal();
         login();
@@ -34,8 +33,9 @@ const logout = () => {
     const loginMenu = document.querySelector('#loginMenu');
     loginMenu.innerText = 'Entrar';
     loginMenu.classList.remove('logout');
-    initModal();
     loginMenu.removeEventListener('click', logout);
+    initModal();
+    login();
 }
 
 const login = () => {

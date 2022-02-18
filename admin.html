@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Lyze</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4">
+                <img src="img/icones/lyze-icon.svg" alt="Lyze">
+            </a>
+            <nav class="header_menu grid-12"> <!-- menu -->
+                <ul data-menu>
+                    <li><a href="mecanicas.html">Mecânicas</a></li>
+                    <li><a href="aikatsu.html">Aikatsu</a></li>
+                    <li><a href="nature.html">Nature Highschool</a></li>
+                    <li><a href="personagens.html">Personagens</a></li>
+                    <li><a href="#" id="loginMenu" data-modal="open">Entrar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="admin">
+        <div>
+            <label for="select">Personagens</label>
+            <select name="select">
+                <option value="valor1">Valor 1</option>
+                <option value="valor2">Valor 2</option>
+                <option value="valor3">Valor 3</option>
+            </select>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome">
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" id="sobrenome" name="sobrenome">
+            <label for="habilidades">Habilidades</label>
+            <input type="text" id="habilidades" name="habilidades">
+            <label for="personalidade">Personalidade</label>
+            <input type="text" id="personalidade" name="personalidade">
+            <label for="idade">idade</label>
+            <input type="text" id="idade" name="idade">
+        </div>
+    </section>
+    
+    <script type="module" src="./js/admin.js"></script>
+</body>
+</html>
