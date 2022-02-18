@@ -1,3 +1,6 @@
+@import 'modal.css';
+
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -57,6 +60,11 @@ p {
     font-size: 1.5em;
     color: #49b7a6;
     text-transform: uppercase;
+}
+
+#loginMenu.logout:hover {
+    color: #bd3737;
+    border-bottom:  3px solid #bd3737;
 }
 
 

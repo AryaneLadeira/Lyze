@@ -19,11 +19,12 @@
                 <img src="img/icones/lyze-icon.svg" alt="Lyze">
             </a>
             <nav class="header_menu grid-12"> <!-- menu -->
-                <ul>
+                <ul data-menu>
                     <li><a href="mecanicas.html">Mecânicas</a></li>
                     <li><a href="aikatsu.html">Aikatsu</a></li>
                     <li><a href="nature.html">Nature Highschool</a></li>
                     <li><a href="personagens.html">Personagens</a></li>
+                    <li><a href="#" id="loginMenu" data-modal="open">Entrar</a></li>
                 </ul>
             </nav>
         </div>
@@ -131,6 +132,21 @@
             </div>
         </div>
     </footer>
-    <script src="./js/index.js"></script>
+
+    <section class="modal-container" data-modal="container">
+        <div class="modal">
+          <button data-modal="close" class="closeBtn">X</button>
+          <form action="">
+            <label for="user">Usuário</label>
+            <input type="text" for="user" id="user">
+            <label for="senha">Senha</label>
+            <input type="password" for="password" id="password">
+            <span class="modal-error" data-modal="error">Usuário ou senha incorretos!</span>
+            <button type="submit" data-login>Entrar</button>
+          </form>
+        </div>
+      </section>
+
+    <script type="module" src="./js/index.js"></script>
 </body>
 </html>
